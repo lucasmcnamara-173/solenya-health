@@ -116,6 +116,9 @@ h1 em,h2 em{font-style:italic;color:var(--sage)}.hero h1 em{color:#f3e6d6}
 .mono{border-radius:50% 50% 8px 8px;width:200px;height:240px;font-style:italic}
 footer.site{background:#1c2219}
 @media(max-width:767px){.vcap{display:none}.card{border-radius:4px 28px 4px 28px}.mono{width:120px;height:150px}}
+details.more{margin-top:var(--s3);border-top:1px solid rgba(29,31,28,.12);padding-top:12px}details.more summary{cursor:pointer;font-weight:600;list-style:none;color:var(--sage)}details.more summary::after{content:" +"}details.more[open] summary::after{content:" –"}details.more summary::-webkit-details-marker{display:none}.green details.more summary{color:inherit}
+@media(max-width:767px){section{padding:28px 0}.split{gap:16px}.lead{font-size:1.05rem}#services .tag{display:none}.card h3{font-size:1.2rem;margin-bottom:6px}.card{padding:16px}blockquote{font-size:1.05rem}h2{margin-bottom:12px}.mono{display:none}.price{padding:10px 0}.price span{font-size:.92rem}#spectravision img[src*="spectravision-device"]{max-width:200px;margin:16px auto 0;display:block}.card{padding:20px}.grid{gap:12px}}
+details summary{cursor:pointer;list-style:none}details summary::-webkit-details-marker{display:none}
 </style></head>
 <body>
 <header class="top"><div class="wrap">
@@ -136,32 +139,28 @@ footer.site{background:#1c2219}
 <div><p class="eyebrow">Our approach</p>
 <h2>Education and <em>individualized</em> strategies</h2>
 <p class="lead">All programs are structured to empower clients toward long-term self-sufficiency through education and individualized strategies.</p>
-<div class="media tall" style="margin-top:var(--s5);max-width:460px"><img src="assets/botanical_chamomile.jpg" alt="Dried chamomile flowers spilling from a ceramic jar" width="1400" height="2114"></div></div>
-<div class="card"><h3>We help people with…</h3><ul class="dots">
+</div>
+<div class="card"><details><summary><h3 style="display:inline">We help people with… +</h3></summary><ul class="dots">
 <li>Long-standing health challenges still lingering after seeking conventional help</li>
 <li>Sensitivities that make it difficult to follow standard wellness advice</li>
 <li>A history of reacting strongly to supplements and/or certain foods/environments</li>
 <li>Curiosity around detoxification and nutrition, and other health-wellness topics</li>
-<li>The desire for personalized, structured wellness plans</li></ul></div>
+<li>The desire for personalized, structured wellness plans</li></ul></details></div>
 </div></div></section>
 
 <section id="services" class="alt"><div class="wrap">
 <p class="eyebrow">Our services</p><h2>Ways to work with Solenya Health</h2>
 <div class="grid g2"  style="margin-top:var(--s5)">
 <div class="card"><span class="tag">SpectraVision®-LLLT</span><h3>SpectraVision-LLLT Packages &amp; Wellness-Nutrition Sessions</h3>
-<p><strong>Addresses:</strong> How body systems, stress patterns, toxins &amp; imbalances are affecting health and wellness.</p>
-<p><strong>Focuses on:</strong> Identifies stress patterns in the body's communication systems, prioritizes supportive nutrition, reveals needed homeopathic-natural balancing tinctures/tactics as well as detoxing needs.</p><a href="#spectravision">Learn about SpectraVision® →</a></div>
+<details class="more"><summary>Details</summary><p><strong>Addresses:</strong> How body systems, stress patterns, toxins &amp; imbalances are affecting health and wellness.</p><p><strong>Focuses on:</strong> Identifies stress patterns in the body's communication systems, prioritizes supportive nutrition, reveals needed homeopathic-natural balancing tinctures/tactics as well as detoxing needs.</p></details><a href="#spectravision">Learn about SpectraVision® →</a></div>
 <div class="card"><span class="tag">Educational Program</span><h3>Detoxification &amp; Nutrition Utilization Educational Program: Your Body’s Natural Design</h3>
-<p><strong>Addresses:</strong> How the body's natural design influences detoxification &amp; nutrition utilization (methylation, nutrient absorption, inflammation, metabolic patterns, etc.)</p>
-<p><strong>Focuses on:</strong> Details how the body detoxes based on your body’s specific detoxification pathways. Provides food plans with sustainable, realistic strategies matched to your body’s needs along with targeted recipes.</p><a href="#program">See the program →</a></div>
+<details class="more"><summary>Details</summary><p><strong>Addresses:</strong> How the body's natural design influences detoxification &amp; nutrition utilization (methylation, nutrient absorption, inflammation, metabolic patterns, etc.)</p><p><strong>Focuses on:</strong> Details how the body detoxes based on your body’s specific detoxification pathways. Provides food plans with sustainable, realistic strategies matched to your body’s needs along with targeted recipes.</p></details><a href="#program">See the program →</a></div>
 <div class="card"><span class="tag">Counseling</span><h3>Naturopathic Nutrition Counseling</h3>
-<p><strong>Addresses:</strong> Counseling related to diet, nutrition, digestion, natural health strategies for healing through botanical, homeopathic-natural remedies, lifestyle adjustments, nutritional therapeutics, etc.</p>
-<p><strong>Focuses on:</strong> Supports unwell individuals seeking structured approaches to restoring balance through Naturopathic-based wellness and Nutrition counseling.</p>
+<details class="more"><summary>Details</summary><p><strong>Addresses:</strong> Counseling related to diet, nutrition, digestion, natural health strategies for healing through botanical, homeopathic-natural remedies, lifestyle adjustments, nutritional therapeutics, etc.</p><p><strong>Focuses on:</strong> Supports unwell individuals seeking structured approaches to restoring balance through Naturopathic-based wellness and Nutrition counseling.</p></details>
 <div class="price"><span>Nutrition &amp; Health-Wellness Consultation via Personalized Education</span><b>$150 / 30 min</b></div></div>
 <div class="card"><span class="tag">Education</span><h3>Educational Materials for Health &amp; Wellness</h3>
-<p><strong>Addresses:</strong> Develop materials answering questions about health-wellness topics.</p>
-<p><strong>Focuses on:</strong> Challenging health-wellness topics or any topic desiring more knowledge.</p>
-<p style="font-size:.95rem;color:var(--muted)">Examples: Food for Healing · Pulsing Vitamins for Health · Suggestions for Maintaining a Healthy Immune System · How to Make the Perfect Smoothie for Your Body</p>
+<details class="more"><summary>Details</summary><p><strong>Addresses:</strong> Develop materials answering questions about health-wellness topics.</p><p><strong>Focuses on:</strong> Challenging health-wellness topics or any topic desiring more knowledge.</p>
+<p style="font-size:.95rem;color:var(--muted)">Examples: Food for Healing · Pulsing Vitamins for Health · Suggestions for Maintaining a Healthy Immune System · How to Make the Perfect Smoothie for Your Body</p></details>
 <div class="price"><span>Health &amp; Wellness Educational Materials</span><b>$100–$150 &amp; up / topic</b></div></div>
 </div></div></section>
 
@@ -170,13 +169,13 @@ footer.site{background:#1c2219}
 <div><p class="eyebrow">A wellness session with</p><h2>SpectraVision® Technology</h2>
 <ul class="dots">
 <li>SpectraVision is an advanced, non-invasive, bionetic, biofeedback device used to evaluate energetic stress patterns in the body’s communication systems and operates through bioresonance, a way of “listening” to the body’s subtle responses and needs</li>
-<li>SpectraVision provides a snapshot of how the body’s energetic system may be responding to stressors, such as environmental burdens, emotional repetitive patterns, nutrition or food tolerance, etc.</li></ul>
-<h3 style="margin-top:var(--s3)">What is a Bionetic Biofeedback Device?</h3>
+</ul><details class="more"><summary>What it shows</summary><ul class="dots"><li>SpectraVision provides a snapshot of how the body’s energetic system may be responding to stressors, such as environmental burdens, emotional repetitive patterns, nutrition or food tolerance, etc.</li></ul></details>
+<details class="more"><summary>What is a bionetic biofeedback device?</summary><h3 style="margin-top:var(--s3)">What is a Bionetic Biofeedback Device?</h3>
 <ul class="dots"><li>A bionetic biofeedback device is a computerized tool that scans electrical or vibrational responses to measure stress and identify bodily imbalances</li>
-<li>Nutrients and supplements are suggested to bring back balance to the body</li></ul></div>
+<li>Nutrients and supplements are suggested to bring back balance to the body</li></ul></details></div>
 <div><img src="assets/spectravision-device.jpg" alt="SpectraVision bionetic biofeedback device and accessories" width="512" height="498" loading="eager"></div>
 </div>
-<div class="grid g3" style="margin-top:var(--s5)">
+<details class="more card" style="margin-top:var(--s3)"><summary>Key features, who it’s for &amp; what it shows</summary><div class="grid g3" style="margin-top:var(--s5)">
 <div class="card"><h3>Key features…</h3><ul class="dots">
 <li>Over 10,000 Selected Substances and Scan Categories: heavy metals, body system burdens, dental health, detox burdens, and more</li>
 <li>Asks the body 144 questions every 2 seconds to pinpoint energetic disturbances or imbalances to identify patterns of disharmony</li>
@@ -190,26 +189,25 @@ footer.site{background:#1c2219}
 <li>The stresses of daily life?</li><li>The food you eat?</li>
 <li>How your thoughts, feelings, emotions, and past traumas are truly affecting you?</li></ul>
 <p>The SpectraVision results may give you context for how your body is feeling.</p></div>
-</div>
-
+</div></details>
 <div class="grid g2" style="margin-top:var(--s5)">
 <div class="card"><h3>SpectraVision-LLLT Wellness Packages*</h3>
 <div class="price"><span>Initial SpectraVision-LLLT Wellness Package (2–3 hours)</span><b>$400</b></div>
 <div class="price"><span>Monthly Follow-up SpectraVision-LLLT Wellness Package (1.5–2 hours); 3–6 sessions for best results</span><b>$350</b></div>
 <div class="price"><span>Annual Wellness Package with SpectraVision-LLLT (3 hours)</span><b>$450</b></div>
-<p class="note">*Includes a Wellness Assessment or Wellness Review of Health Goals, a full customized SpectraVision Scan and Evaluation, recommendation for supplements and homeopathic tinctures the client can purchase to use for the next 30 days after the session, and a 15-20-minute LLLT session. Price excludes the cost of any supplements purchased by client.</p></div>
-<div class="card"><h3>Other Services<span style="font-size:.85rem;font-family:sans-serif;color:var(--muted)"> ǂ</span></h3>
+<details class="more"><summary>What’s included</summary><p class="note">*Includes a Wellness Assessment or Wellness Review of Health Goals, a full customized SpectraVision Scan and Evaluation, recommendation for supplements and homeopathic tinctures the client can purchase to use for the next 30 days after the session, and a 15-20-minute LLLT session. Price excludes the cost of any supplements purchased by client.</p></details></div>
+<div class="card"><details><summary><h3 style="display:inline">Other services · from $50 +</h3></summary><h3 style="display:none">Other Services<span style="font-size:.85rem;font-family:sans-serif;color:var(--muted)"> ǂ</span></h3>
 <div class="price"><span>Quick Wellness Check-up Session with SpectraVision-MCT Scan (15–20 min)</span><b>$100</b></div>
 <div class="price"><span>Quick Wellness Check-up Session with SpectraVision-MCT &amp; LLLT (30 min)</span><b>$150</b></div>
 <div class="price"><span>Singular Session with LLLT (10–15 min)</span><b>$50</b></div>
-<p class="note">ǂExcludes the cost of any Homeopathic-natural Tinctures and personalize supplements that the client chooses to purchase; does not include a 15-20 minute LLLT session; Must have completed SpectraVision-LLLT Wellness session.<br>LLLT, Low-level Laser Therapy; MCT, multichannel testing.</p></div>
+<details class="more"><summary>Notes</summary><p class="note">ǂExcludes the cost of any Homeopathic-natural Tinctures and personalize supplements that the client chooses to purchase; does not include a 15-20 minute LLLT session; Must have completed SpectraVision-LLLT Wellness session.<br>LLLT, Low-level Laser Therapy; MCT, multichannel testing.</p></details></details></div>
 </div>
 
-<div class="card" style="margin-top:var(--s3)"><h3>Before your session</h3><ul class="dots">
+<div class="card" style="margin-top:var(--s3)"><details><summary><h3 style="display:inline">Before your session +</h3></summary><ul class="dots">
 <li>Monday–Sunday: Start times – 8 am, 10 am or 1 pm sessions</li>
 <li>Wear a light-colored or white shirt</li><li>Bring your daily supplements</li>
 <li>Must arrive in a Fasting State; only water until after your session</li>
-<li>Client Wellness Forms and Documents: Two (2) days prior to your first session, fill them out and email to Michelle at <a href="mailto:Solenyahealth@proton.me">Solenyahealth@proton.me</a></li></ul>
+<li>Client Wellness Forms and Documents: Two (2) days prior to your first session, fill them out and email to Michelle at <a href="mailto:Solenyahealth@proton.me">Solenyahealth@proton.me</a></li></ul></details>
 <p class="small-disc">SpectraVision® Technology is an educational and wellness-based system; It does not diagnose or treat disease; Clients should always consult a licensed medical provider for health conditions or prescriptions. The SpectraVision® device has not been evaluated, cleared, or approved by the U.S. Food and Drug Administration (FDA) as a medical device.</p></div>
 </div></section>
 
@@ -217,8 +215,7 @@ footer.site{background:#1c2219}
 <p class="eyebrow">Detoxification &amp; Nutrition Utilization Educational Program</p>
 <h2>Understanding Your Body’s Natural Design</h2>
 <p class="lead">DNA holds patterns that influence how your body prefers to manage everyday toxins, use nutrients from food, create energy, and maintain balance. This is a personalized, wellness educational program based on your own health data, not medical genetics or diagnostic or treating a disease.</p>
-<div class="grid g3"  style="margin-top:var(--s5)">
-<div class="card"><h3>People seek this work because they…</h3><ul class="dots">
+<details class="more"><summary>Who this is for</summary><div class="grid g2" style="margin-top:var(--s3)"><div class="card"><h3>People seek this work because they…</h3><ul class="dots">
 <li>Feel like something in their system isn’t running smoothly</li>
 <li>Have tried different approaches without lasting success</li>
 <li>Experience recurring fatigue, sensitivity, or sluggishness</li>
@@ -233,24 +230,26 @@ footer.site{background:#1c2219}
 <li>A need for clear, individualized wellness guidance</li>
 <li>A roadmap that respects the body's sensitivities and complexities</li>
 <li>A supportive approach to wellness grounded in patterns</li></ul></div>
-<div class="card"><h3>What you receive is customized materials explaining…</h3><ul class="dots">
+</div></details>
+<div class="grid g2"  style="margin-top:var(--s5)">
+<div class="card"><details><summary><h3 style="display:inline">What you receive is customized materials explaining… +</h3></summary><ul class="dots">
 <li>How your detoxification system may flow uniquely for you</li>
 <li>How your body naturally processes nutrients</li>
 <li>Foods and supplements that match your natural pattern and design</li>
 <li>Lifestyle habits and environments aligned with your unique design</li>
-<li>Strategies to support energy, detox, clarity, and resilience</li></ul></div>
+<li>Strategies to support energy, detox, clarity, and resilience</li></ul></details></div>
 </div>
 <div class="grid g2" style="margin-top:var(--s3)">
-<div class="card"><h3>What to expect</h3><ol class="steps">
+<div class="card"><details><summary><h3 style="display:inline">What to expect +</h3></summary><ol class="steps">
 <li>The client obtains their raw data file via 23andme.com or Ancestry.com and emails it to Solenya Health</li>
 <li>Detoxification and Nutrition Utilization Plans are developed based on your genetic data (SNPs)</li>
 <li>Clear explanation of health tendencies and sensitivities via a unique personalized Detoxification Protocol, mapped out steps to Nutrition with personalized supplement and nutrition recommendations, and targeted recipes and food support</li>
-<li>Educational experience specific to your health and wellness</li></ol></div>
+<li>Educational experience specific to your health and wellness</li></ol></details></div>
 <div class="card"><h3>Costs</h3>
 <div class="price"><span>Detoxification and Nutrition Utilization Package</span><b>$1,299</b></div>
 <div class="price"><span>Each additional researched educational program (e.g., Insights on Lifestyle Changes, Energy-Mood Programs among other topics)</span><b>$650 &amp; up</b></div>
 <p style="margin-top:16px">To make an appointment, call Michelle A. Adams, BNC at <a href="tel:+17757416188">775-741-6188</a> or email her at <a href="mailto:Solenyahealth@proton.me">Solenyahealth@proton.me</a></p>
-<p class="small-disc">This educational report is provided solely for educational, informational, and wellness purposes. The content does not constitute medical advice, diagnosis, prognosis, or treatment. This test does not check for, diagnose, or predict hereditary diseases, medical conditions, or food allergies. The nutrigenomic analysis and report is conducted by Systemic Formulas and Solenya Health solely provides an educational overview of the report for informational purposes and not to diagnose or treat any disease or medical condition.</p></div>
+<details class="more"><summary>Disclaimer</summary><p class="small-disc">This educational report is provided solely for educational, informational, and wellness purposes. The content does not constitute medical advice, diagnosis, prognosis, or treatment. This test does not check for, diagnose, or predict hereditary diseases, medical conditions, or food allergies. The nutrigenomic analysis and report is conducted by Systemic Formulas and Solenya Health solely provides an educational overview of the report for informational purposes and not to diagnose or treat any disease or medical condition.</p></details></div>
 </div></div></section>
 
 <section id="testimonials" class="alt"><div class="wrap">
@@ -260,7 +259,7 @@ footer.site{background:#1c2219}
 <div class="card quote"><blockquote>I understand my body and how it operates now after working with you. I am no longer afraid of symptoms but understand where and why they exists, and work toward health and well being.<footer>– Shanna</footer></blockquote></div>
 <div class="card quote"><blockquote>I can decide on what supplements work for me and how to understand the ingredients in foods and what purpose they service for my body.<footer>– Nina</footer></blockquote></div>
 </div>
-<div class="card quote wide" style="margin-top:var(--s3)"><blockquote>I am waking up closer to the time I used to wake up with tons of energy and no longer super sluggish. I can work for 5 hours straight doing fairly labor-intensive tasks without getting dizzy enough that I have to stop (i.e., laundry, loading dishwasher, putting items on cashier carousel). I can drive longer distances safely without my vision going spotty and getting. I can sit in a chair normally for about 10 min without my feet beginning to go numb. My grip strength has improved, and I am able to hold heavier things more safely and longer. Immediately after SpectraVision session and the laser treatment, I felt a sense of relief.<footer>– Lauren</footer></blockquote></div>
+<div class="card quote wide" style="margin-top:var(--s3)"><blockquote>I am waking up closer to the time I used to wake up with tons of energy and no longer super sluggish. <details style="display:inline"><summary style="display:inline;color:var(--sage);font-weight:600">Read more</summary>I can work for 5 hours straight doing fairly labor-intensive tasks without getting dizzy enough that I have to stop (i.e., laundry, loading dishwasher, putting items on cashier carousel). I can drive longer distances safely without my vision going spotty and getting. I can sit in a chair normally for about 10 min without my feet beginning to go numb. My grip strength has improved, and I am able to hold heavier things more safely and longer. Immediately after SpectraVision session and the laser treatment, I felt a sense of relief.</details><footer>– Lauren</footer></blockquote></div>
 <p class="note">Individual experiences vary. Testimonials reflect individual client experiences and are not a guarantee of results.</p>
 </div></section>
 
@@ -269,7 +268,7 @@ footer.site{background:#1c2219}
 <div><p class="eyebrow">About</p><h2>Michelle A. Adams, BNC</h2>
 <p><strong>Wellness &amp; Nutrition Counselor at Solenya Health</strong></p>
 <p>Solenya Health offers SpectraVision® Technology via Bionetics, Targeted Detoxification &amp; Nutrition Utilization Profiling Programs, and Wellness &amp; Nutrition Counseling.</p>
-<p>Michelle is also the founder of Write All, LLC, an EBM publication, medical writing and editing company established in 2007-2008 that conveys complex medical information for clinicians and publishes HEOR data in journals and at medical conferences.</p>
+<details class="more"><summary>Background</summary><p>Michelle is also the founder of Write All, LLC, an EBM publication, medical writing and editing company established in 2007-2008 that conveys complex medical information for clinicians and publishes HEOR data in journals and at medical conferences.</p></details>
 <p class="pull">“Our bodies have a wonderful capacity to heal. Our innate biological energy system helps us to survive and thrive.”</p>
 </div></div></div></section>
 
@@ -279,7 +278,7 @@ footer.site{background:#1c2219}
 <p class="note">Products are for wellness support only and are not intended to diagnose, treat, cure or prevent any disease.</p></div>
 <div class="card"><a class="btn" id="shopBtn" href="mailto:Solenyahealth@proton.me?subject=Supplement%20order%20request" style="width:100%;text-align:center">Email Michelle to order</a>
 <a class="btn" href="tel:+17757416188" style="width:100%;text-align:center;margin-top:var(--s2);background:transparent;color:var(--ink);border:1px solid var(--line)">Call 775-741-6188</a>
-<p class="note" style="margin-bottom:0">Email or call Michelle to order the supplements she recommends for you.</p></div>
+</div>
 </div></div></section>
 
 <section id="contact" class="contact"><div class="wrap"><div class="split" style="align-items:start">
@@ -288,8 +287,6 @@ footer.site{background:#1c2219}
 <div class="card" style="margin-top:20px"><h3>Visit</h3><p style="margin:0">Solenya Health<br>343 Elm Street, Suite 401<br>Reno, NV 89503<br><a href="https://maps.google.com/?q=343+Elm+Street+Suite+401+Reno+NV+89503" target="_blank" rel="noopener">Get directions →</a></p></div></div>
 <div style="padding-top:10px">
 <a class="cbtn" href="tel:+17757416188"><span class="ic"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span><span>775-741-6188<small>Tap to call Michelle</small></span></a>
-<a class="cbtn" href="mailto:Solenyahealth@proton.me?subject=Appointment%20request%20-%20Solenya%20Health&amp;body=Hi%20Michelle%2C%0A%0AI%27d%20like%20to%20book%3A%20%0APreferred%20day%2Ftime%3A%20%0APhone%3A%20%0A"><span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span><span>Solenyahealth@proton.me<small>Tap to email an appointment request</small></span></a>
-<a class="cbtn" href="mailto:Solenyahealth@proton.me?subject=SpectraVision%20session%20booking"><span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></span><span>Book a SpectraVision® Session<small>Email to request a start time</small></span></a>
 <form class="bform" id="bookForm" novalidate>
 <h3 style="color:var(--ink);margin:0 0 4px">Request an appointment</h3>
 <label for="bn">Name</label><input id="bn" name="name" autocomplete="name" required>
@@ -298,13 +295,12 @@ footer.site{background:#1c2219}
 <label for="bs">Service</label><select id="bs" name="service">
 <option>Initial SpectraVision-LLLT Wellness Package ($400)</option><option>Monthly Follow-up SpectraVision-LLLT Package ($350)</option><option>Annual Wellness Package with SpectraVision-LLLT ($450)</option><option>Quick Wellness Check-up ($100–$150)</option><option>Singular Session with LLLT ($50)</option><option>Nutrition &amp; Health-Wellness Consultation ($150 / 30 min)</option><option>Detoxification &amp; Nutrition Utilization Package ($1,299)</option><option>Educational Materials ($100–$150 &amp; up)</option><option>Not sure yet</option></select>
 <label for="bt">Preferred start time</label><select id="bt" name="time"><option>8 am</option><option>10 am</option><option>1 pm</option></select>
-<label for="bd">Preferred day(s)</label><input id="bd" name="days" placeholder="e.g. Tuesday or Saturday">
 <label for="bm">Anything Michelle should know (optional)</label><textarea id="bm" name="msg" rows="3"></textarea>
 <p class="err" id="bErr" role="alert"></p>
 <button class="btn" type="submit">Send request</button>
 <p class="fine">Your request goes straight to Michelle's inbox. Michelle confirms every time by phone or email. Please don't include medical records here.</p>
 </form>
-<script>document.getElementById('bookForm').addEventListener('submit',function(e){e.preventDefault();var f=this,n=f.name.value.trim(),p=f.phone.value.trim();var er=document.getElementById('bErr');if(!n||p.replace(/\D/g,'').length<10){er.textContent='Please enter your name and a 10-digit phone number.';return}er.textContent='';var b='Name: '+n+'\nPhone: '+p+'\nEmail: '+f.email.value+'\nService: '+f.service.value+'\nPreferred start time: '+f.time.value+'\nPreferred day(s): '+f.days.value+'\n\n'+f.msg.value;sendLead(f,'Solenyahealth@proton.me','Appointment request - '+n,b,er,{name:n,phone:p});});</script>
+<script>document.getElementById('bookForm').addEventListener('submit',function(e){e.preventDefault();var f=this,n=f.name.value.trim(),p=f.phone.value.trim();var er=document.getElementById('bErr');if(!n||p.replace(/\D/g,'').length<10){er.textContent='Please enter your name and a 10-digit phone number.';return}er.textContent='';var b='Name: '+n+'\nPhone: '+p+'\nEmail: '+f.email.value+'\nService: '+f.service.value+'\nPreferred start time: '+f.time.value+'\n\n'+f.msg.value;sendLead(f,'Solenyahealth@proton.me','Appointment request - '+n,b,er,{name:n,phone:p});});</script>
 </div></div></div></section>
 
 <footer class="site"><div class="wrap">
