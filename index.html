@@ -116,10 +116,16 @@ h1 em,h2 em{font-style:italic;color:var(--sage)}.hero h1 em{color:#f3e6d6}
 .mono{border-radius:50% 50% 8px 8px;width:200px;height:240px;font-style:italic}
 footer.site{background:#1c2219}
 @media(max-width:767px){.vcap{display:none}.card{border-radius:4px 28px 4px 28px}.mono{width:120px;height:150px}}
-details.more{margin-top:var(--s3);border-top:1px solid rgba(29,31,28,.12);padding-top:12px}details.more summary{cursor:pointer;font-weight:600;list-style:none;color:var(--sage)}details.more summary::after{content:" +"}details.more[open] summary::after{content:" –"}details.more summary::-webkit-details-marker{display:none}.green details.more summary{color:inherit}
+details.more{margin-top:var(--s3);border-top:1px solid rgba(29,31,28,.12);padding-top:12px}details.more summary{cursor:pointer;font-weight:600;list-style:none;color:var(--sage)}details.more summary::-webkit-details-marker{display:none}.green details.more summary{color:inherit}
 @media(max-width:767px){section{padding:28px 0}.split{gap:16px}.lead{font-size:1.05rem}#services .tag{display:none}.card h3{font-size:1.2rem;margin-bottom:6px}.card{padding:16px}blockquote{font-size:1.05rem}h2{margin-bottom:12px}.mono{display:none}.price{padding:10px 0}.price span{font-size:.92rem}#spectravision img[src*="spectravision-device"]{max-width:200px;margin:16px auto 0;display:block}.card{padding:20px}.grid{gap:12px}}
 details summary{cursor:pointer;list-style:none}details summary::-webkit-details-marker{display:none}
-</style></head>
+details summary{min-height:44px;display:flex !important;align-items:center;justify-content:space-between;gap:12px;font-weight:600;color:var(--sage)}details summary h3{margin:0 !important}details summary::after{content:"+";font-size:1.3rem;font-weight:400;flex:none}details[open]>summary::after{content:"–"}details.more{border-top:0;padding-top:4px}.top a,.links a{min-height:44px;display:inline-flex;align-items:center}:focus-visible{outline:2px solid var(--sage);outline-offset:3px}
+details.rm summary::after{content:""}
+</style><link rel="canonical" href="https://lucasmcnamara-173.github.io/solenya-health/">
+<meta property="og:type" content="website"><meta property="og:url" content="https://lucasmcnamara-173.github.io/solenya-health/"><meta property="og:title" content="Solenya Health · Wellness &amp; Nutrition Counseling"><meta property="og:description" content="Personalized wellness with Michelle A. Adams, BNC: SpectraVision® sessions, Detoxification &amp; Nutrition Utilization program and nutrition counseling. Lake Tahoe &amp; Reno area."><meta property="og:image" content="https://lucasmcnamara-173.github.io/solenya-health/assets/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Solenya Health · Wellness &amp; Nutrition Counseling"><meta name="twitter:description" content="Personalized wellness with Michelle A. Adams, BNC: SpectraVision® sessions, Detoxification &amp; Nutrition Utilization program and nutrition counseling. Lake Tahoe &amp; Reno area."><meta name="twitter:image" content="https://lucasmcnamara-173.github.io/solenya-health/assets/og.jpg">
+<link rel="icon" href="assets/favicon.svg"><meta name="theme-color" content="#2f3d30">
+</head>
 <body>
 <header class="top"><div class="wrap">
 <a class="logo" href="#">SOLENYA <span>HEALTH</span></a>
@@ -128,7 +134,7 @@ details summary{cursor:pointer;list-style:none}details summary::-webkit-details-
 </div></header>
 
 <div class="hero"><span class="vcap" aria-hidden="true">Wellness · Nutrition · Education</span><div class="wrap">
-<svg class="sprig" viewBox="0 0 72 40" aria-hidden="true"><path d="M2 38C20 30 40 20 70 4"/><path d="M18 31c-2-6 0-11 6-13-1 6-2 10-6 13zM30 25c-1-7 2-11 8-12-1 6-3 10-8 12zM43 18c0-6 3-10 9-10-2 5-4 9-9 10zM24 29c5-3 11-2 14 2-5 2-10 2-14-2zM37 22c5-3 11-2 13 2-5 2-10 1-13-2zM50 15c5-2 10-1 12 3-5 1-9 0-12-3z"/></svg><p class="eyebrow">Solenya Health · Lake Tahoe &amp; Reno area</p>
+<svg class="sprig" viewBox="0 0 72 40" aria-hidden="true"><path d="M2 38C20 30 40 20 70 4"/><path d="M18 31c-2-6 0-11 6-13-1 6-2 10-6 13zM30 25c-1-7 2-11 8-12-1 6-3 10-8 12zM43 18c0-6 3-10 9-10-2 5-4 9-9 10zM24 29c5-3 11-2 14 2-5 2-10 2-14-2zM37 22c5-3 11-2 13 2-5 2-10 1-13-2zM50 15c5-2 10-1 12 3-5 1-9 0-12-3z"/></svg><p class="eyebrow">Lake Tahoe &amp; Reno area</p>
 <h1>Organically grown wellness, <em>personalized to you.</em></h1>
 <p>Solenya Health provides personalized wellness services designed to support healing, detoxification, nutrition optimization, and functional balance.</p>
 <div class="ctas"><a class="btn" href="#contact">Book a session</a><a class="tlink" href="tel:+17757416188">or call 775-741-6188</a></div>
@@ -140,7 +146,7 @@ details summary{cursor:pointer;list-style:none}details summary::-webkit-details-
 <h2>Education and <em>individualized</em> strategies</h2>
 <p class="lead">All programs are structured to empower clients toward long-term self-sufficiency through education and individualized strategies.</p>
 </div>
-<div class="card"><details><summary><h3 style="display:inline">We help people with… +</h3></summary><ul class="dots">
+<div class="card"><details class="more"><summary><h3 style="display:inline">We help people with…</h3></summary><ul class="dots">
 <li>Long-standing health challenges still lingering after seeking conventional help</li>
 <li>Sensitivities that make it difficult to follow standard wellness advice</li>
 <li>A history of reacting strongly to supplements and/or certain foods/environments</li>
@@ -196,14 +202,14 @@ details summary{cursor:pointer;list-style:none}details summary::-webkit-details-
 <div class="price"><span>Monthly Follow-up SpectraVision-LLLT Wellness Package (1.5–2 hours); 3–6 sessions for best results</span><b>$350</b></div>
 <div class="price"><span>Annual Wellness Package with SpectraVision-LLLT (3 hours)</span><b>$450</b></div>
 <details class="more"><summary>What’s included</summary><p class="note">*Includes a Wellness Assessment or Wellness Review of Health Goals, a full customized SpectraVision Scan and Evaluation, recommendation for supplements and homeopathic tinctures the client can purchase to use for the next 30 days after the session, and a 15-20-minute LLLT session. Price excludes the cost of any supplements purchased by client.</p></details></div>
-<div class="card"><details><summary><h3 style="display:inline">Other services · from $50 +</h3></summary><h3 style="display:none">Other Services<span style="font-size:.85rem;font-family:sans-serif;color:var(--muted)"> ǂ</span></h3>
+<div class="card"><details class="more"><summary><h3 style="display:inline">Other services · from $50</h3></summary>
 <div class="price"><span>Quick Wellness Check-up Session with SpectraVision-MCT Scan (15–20 min)</span><b>$100</b></div>
 <div class="price"><span>Quick Wellness Check-up Session with SpectraVision-MCT &amp; LLLT (30 min)</span><b>$150</b></div>
 <div class="price"><span>Singular Session with LLLT (10–15 min)</span><b>$50</b></div>
 <details class="more"><summary>Notes</summary><p class="note">ǂExcludes the cost of any Homeopathic-natural Tinctures and personalize supplements that the client chooses to purchase; does not include a 15-20 minute LLLT session; Must have completed SpectraVision-LLLT Wellness session.<br>LLLT, Low-level Laser Therapy; MCT, multichannel testing.</p></details></details></div>
 </div>
 
-<div class="card" style="margin-top:var(--s3)"><details><summary><h3 style="display:inline">Before your session +</h3></summary><ul class="dots">
+<div class="card" style="margin-top:var(--s3)"><details class="more"><summary><h3 style="display:inline">Before your session</h3></summary><ul class="dots">
 <li>Monday–Sunday: Start times – 8 am, 10 am or 1 pm sessions</li>
 <li>Wear a light-colored or white shirt</li><li>Bring your daily supplements</li>
 <li>Must arrive in a Fasting State; only water until after your session</li>
@@ -232,7 +238,7 @@ details summary{cursor:pointer;list-style:none}details summary::-webkit-details-
 <li>A supportive approach to wellness grounded in patterns</li></ul></div>
 </div></details>
 <div class="grid g2"  style="margin-top:var(--s5)">
-<div class="card"><details><summary><h3 style="display:inline">What you receive is customized materials explaining… +</h3></summary><ul class="dots">
+<div class="card"><details class="more"><summary><h3 style="display:inline">What you receive is customized materials explaining…</h3></summary><ul class="dots">
 <li>How your detoxification system may flow uniquely for you</li>
 <li>How your body naturally processes nutrients</li>
 <li>Foods and supplements that match your natural pattern and design</li>
@@ -240,7 +246,7 @@ details summary{cursor:pointer;list-style:none}details summary::-webkit-details-
 <li>Strategies to support energy, detox, clarity, and resilience</li></ul></details></div>
 </div>
 <div class="grid g2" style="margin-top:var(--s3)">
-<div class="card"><details><summary><h3 style="display:inline">What to expect +</h3></summary><ol class="steps">
+<div class="card"><details class="more"><summary><h3 style="display:inline">What to expect</h3></summary><ol class="steps">
 <li>The client obtains their raw data file via 23andme.com or Ancestry.com and emails it to Solenya Health</li>
 <li>Detoxification and Nutrition Utilization Plans are developed based on your genetic data (SNPs)</li>
 <li>Clear explanation of health tendencies and sensitivities via a unique personalized Detoxification Protocol, mapped out steps to Nutrition with personalized supplement and nutrition recommendations, and targeted recipes and food support</li>
@@ -259,7 +265,7 @@ details summary{cursor:pointer;list-style:none}details summary::-webkit-details-
 <div class="card quote"><blockquote>I understand my body and how it operates now after working with you. I am no longer afraid of symptoms but understand where and why they exists, and work toward health and well being.<footer>– Shanna</footer></blockquote></div>
 <div class="card quote"><blockquote>I can decide on what supplements work for me and how to understand the ingredients in foods and what purpose they service for my body.<footer>– Nina</footer></blockquote></div>
 </div>
-<div class="card quote wide" style="margin-top:var(--s3)"><blockquote>I am waking up closer to the time I used to wake up with tons of energy and no longer super sluggish. <details style="display:inline"><summary style="display:inline;color:var(--sage);font-weight:600">Read more</summary>I can work for 5 hours straight doing fairly labor-intensive tasks without getting dizzy enough that I have to stop (i.e., laundry, loading dishwasher, putting items on cashier carousel). I can drive longer distances safely without my vision going spotty and getting. I can sit in a chair normally for about 10 min without my feet beginning to go numb. My grip strength has improved, and I am able to hold heavier things more safely and longer. Immediately after SpectraVision session and the laser treatment, I felt a sense of relief.</details><footer>– Lauren</footer></blockquote></div>
+<div class="card quote wide" style="margin-top:var(--s3)"><blockquote>I am waking up closer to the time I used to wake up with tons of energy and no longer super sluggish. <details class="rm" style="display:inline"><summary style="display:inline !important;min-height:0;color:var(--sage);font-weight:600">Read more</summary>I can work for 5 hours straight doing fairly labor-intensive tasks without getting dizzy enough that I have to stop (i.e., laundry, loading dishwasher, putting items on cashier carousel). I can drive longer distances safely without my vision going spotty and getting. I can sit in a chair normally for about 10 min without my feet beginning to go numb. My grip strength has improved, and I am able to hold heavier things more safely and longer. Immediately after SpectraVision session and the laser treatment, I felt a sense of relief.</details><footer>– Lauren</footer></blockquote></div>
 <p class="note">Individual experiences vary. Testimonials reflect individual client experiences and are not a guarantee of results.</p>
 </div></section>
 
